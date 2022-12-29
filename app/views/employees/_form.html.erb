@@ -1,8 +1,8 @@
-<%= form_with model: task do |f| %>
-  <%= f.label :title %>
-  <%= f.text_field :title %>
-  <%= f.label :details %>
-  <%= f.text_field :details %>
+<%= form_with model: employee do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :surname %>
+  <%= f.text_field :surname %>
   <%= f.label :completed %>
   <%= f.check_box :completed %>
   <%= f.submit %>
