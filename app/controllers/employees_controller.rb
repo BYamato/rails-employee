@@ -6,4 +6,8 @@ class EmployeesController < ApplicationController
 
   def new
   end
+
+  def show
+    @employee = Employee.find(params[:id])
+  end
 end
